@@ -1,0 +1,20 @@
+package DateTimeAPI;
+
+import java.time.LocalDate;
+
+/**
+ * @author KaustubhWaghmare
+ *
+ */
+public class LocalDateExample {
+	public static void main(String args[]){
+		
+		LocalDate date = LocalDate.now();
+		System.out.println("Date -- "+date);
+		
+		LocalDate date = LocalDate.now();
+		System.out.println("Date -- "+date);
+		
+	}
+
+}

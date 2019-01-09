@@ -1,0 +1,24 @@
+package DateTimeAPI;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+/**
+ * @author KaustubhWaghmare
+ *
+ */
+public class LocalDateExample {
+	public static void main(String args[]){
+		
+		LocalDate date;
+		date = LocalDate.now();
+		System.out.println("Date -- "+date);
+		
+		LocalDate date = LocalDate.of(2017, Month.APRIL, 23);
+		System.out.println("Date -- "+date);
+		
+		
+		
+	}
+
+}
